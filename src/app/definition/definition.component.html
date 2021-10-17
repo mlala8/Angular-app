@@ -1,0 +1,18 @@
+<div class="definition-container d-flex flex-column flex-wrap">
+    <div class="description d-flex flex-column">
+    <p class="title">Description</p>
+    <form class="formContainer d-flex flex-column" [formGroup]="descriptionForm">
+        <input type="text" name="marketingName" formControlName="marketingName" class="form-control" id="marketingName" autocomplete="off" placeholder="Marketing name" (input)="updateForm()">
+        <input type="text" name="technicalName" formControlName="technicalName" class="form-control" id="technicalName" autocomplete="off" placeholder="Technical name" (input)="updateForm()">
+        <textarea class="form-control" id="description" placeholder="Description" rows="8"></textarea>
+    </form>
+    </div>
+    <div class="catalogPromotion d-flex flex-column">
+        <p class="title">Catalog promotion tutorial:</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget felis eget nunc lobortis mattis aliquam faucibus purus in. Eu lobortis elementum nibh tellus molestie nunc. Vel orci porta non pulvinar. Nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. </p> <p>Convallis convallis tellus id interdum velit laoreet id donec ultrices. Pulvinar etiam non quam lacus suspendisse faucibus interdum posuere lorem. Posuere ac ut consequat semper viverra nam. Morbi tristique senectus et netus et malesuada fames. Sed id semper risus in hendrerit. Est ultricies integer quis auctor elit. Sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Et egestas quis ipsum suspendisse ultrices. Facilisis gravida neque convallis a cras semper auctor neque. Ridiculus mus mauris vitae ultricies leo integer. Eget est lorem ipsum dolor sit amet. Sed nisi lacus sed viverra tellus in.</p>
+     </div>
+    <div class="conditions d-flex">
+    <p class="title">Conditions</p>
+    </div>
+
+</div>
